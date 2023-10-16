@@ -164,7 +164,7 @@ paceOptions = {
 }
 // when loading finish
 Pace.on('done', () =>{
-    if(window.location.pathname == "/"){
+    if(window.location.pathname == "/"||window.location.pathname == "/index.html"){
         console.log(window.location.pathname)
        homeAnimation()
     }
