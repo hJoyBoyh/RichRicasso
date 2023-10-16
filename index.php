@@ -1,3 +1,6 @@
+<?php
+$userImg = "img/user2.png"
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,9 +48,9 @@
 
         <nav>
             <div class="logo nav-li"><h1>R</h1></div>
-            <li class="nav-li"><a href="/" style="color: white;">Accueil</a></li>
+            <li class="nav-li"><a href="/" >Accueil</a></li>
             <li class="nav-li"> <a href="produit">Produit</a></li>
-            <img src="/img/user2.png" alt="user" class="user-icon nav-li" >
+            <img src="./img/user2.png" alt="user" class="user-icon nav-li" >
         </nav>
         
 
@@ -60,7 +63,7 @@
                 </div>
                 <div class="user-panel">
                     <div class="user-face">
-                        <img src="/img/user2.png" alt="user" class="user-icon">
+                        <img src="./img/user2.png" alt="user" class="user-icon">
                     </div>
                     <div class="user-info">
                         <p class="user-name">KeZa Ria</p>
@@ -197,5 +200,5 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="main.js"></script>
-<script src="/script/caroussel.js"></script>
+<script src="./script/caroussel.js"></script>
 </html>

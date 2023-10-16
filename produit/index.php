@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,8 +30,8 @@
         <nav>
             <div class="logo nav-li"><h1>R</h1></div>
             <li class="nav-li"> <a href="/">Accueil</a></li>
-            <li class="nav-li"> <a href="/produit" style="color:white">Produit</a></li>
-            <img src="/img/user2.png" alt="user" class="user-icon nav-li" >
+            <li class="nav-li"> <a href="/produit" >Produit</a></li>
+            <img src="../img/user2.png" alt="user" class="user-icon nav-li" >
         </nav>
         <header>
             <div id="user-parametre">
@@ -40,7 +42,7 @@
                 </div>
                 <div class="user-panel">
                     <div class="user-face">
-                        <img src="/img/user2.png" alt="user" class="user-icon">
+                        <img src="../img/user2.png" alt="user" class="user-icon">
                     </div>
                     <div class="user-info">
                         <p class="user-name">KeZa Ria</p>
