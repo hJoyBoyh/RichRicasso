@@ -8,8 +8,8 @@ $userImg = "img/user2.png"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css">
-    <link rel="stylesheet" href="loading.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/loading.css">
+    <link rel="stylesheet" href="./style/accueilStyle.css">
     <title>Accueil</title>
 </head>
 <body>
