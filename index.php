@@ -48,8 +48,8 @@ $userImg = "img/user2.png"
 
         <nav>
             <div class="logo nav-li"><h1>R</h1></div>
-            <li class="nav-li"><a href="/" >Accueil</a></li>
-            <li class="nav-li"> <a href="produit">Produit</a></li>
+            <li class="nav-li"><a href="/RichRicasso" >Accueil</a></li>
+            <li class="nav-li"> <a href="/RichRicasso/produit">Produit</a></li>
             <img src="./img/user2.png" alt="user" class="user-icon nav-li" >
         </nav>
         
@@ -68,7 +68,7 @@ $userImg = "img/user2.png"
                     <div class="user-info">
                         <p class="user-name">KeZa Ria</p>
                         <p class="user-email">email@email.com</p>
-                        <p class="user-profil"><a href="profil">Mon profil</a></p>
+                        <p class="user-profil"><a href="/RichRicasso/profil/profil.php">Mon profil</a></p>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@ $userImg = "img/user2.png"
                 
                 <div class="hero-info">
                     <div class="carousel-container">
-                        <img src="img/none-icon-0.jpg" alt="">
+                        <img src="./img/cravate1.png" alt="">
                     </div>
                     <div class="info">
                         <h1 class="info-h1">Rich Racasso Collections</h1>
@@ -103,7 +103,7 @@ $userImg = "img/user2.png"
                 <div class="rich-title"><h1>The man behind that revolution</h1></div>
                 <div class="rich-info">
                     <div class="rich-img-container">
-                        <img src="img/richR.jpg" alt="" class="rich-img">
+                        <img src="./img/Rich_Ricasso.png" alt="" class="rich-img">
                     </div>
                     <div class="rich-text">
                         <h3 style="font-size:3em">Rich Ricasso</h3>
@@ -146,14 +146,14 @@ $userImg = "img/user2.png"
             <div class="piece-phare">
                 <div class="piece-column">
                     <div class="card-piece">
-                        <img src="img/none-icon-0.jpg" alt="" class="piece-img">
+                        <img src="./img/cravate1.png" alt="" class="piece-img">
                         <h2>Chemise-1</h2>
                         <h3>95$</h3>
                     </div>
                 </div>
                 <div class="piece-column-2">
                     <div class="card-piece">
-                        <img src="img/none-icon-0.jpg" alt="" class="piece-img">
+                        <img src="./img/cravate2.png" alt="" class="piece-img">
                         <h2>Chemise-2</h2>
                         <h3>50$</h3>
                     </div>
@@ -161,14 +161,14 @@ $userImg = "img/user2.png"
                         <h3>voir plus</h3>
                     </div>
                     <div class="card-piece">
-                        <img src="img/none-icon-0.jpg" alt="" class="piece-img">
+                        <img src="./img/cravate3.png" alt="" class="piece-img">
                         <h2>Cravatte-2</h2>
                         <h3>90$</h3>
                     </div>
                 </div>
                 <div class="piece-column">
                     <div class="card-piece">
-                        <img src="img/none-icon-0.jpg" alt="" class="piece-img">
+                        <img src="./img/cravate4.png" alt="" class="piece-img">
                         <h2>Cravatte-2</h2>
                         <h3>15$</h3>
                     </div>

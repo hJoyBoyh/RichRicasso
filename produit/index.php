@@ -29,8 +29,8 @@
         -->
         <nav>
             <div class="logo nav-li"><h1>R</h1></div>
-            <li class="nav-li"> <a href="/">Accueil</a></li>
-            <li class="nav-li"> <a href="/produit" >Produit</a></li>
+            <li class="nav-li"> <a href="/RichRicasso">Accueil</a></li>
+            <li class="nav-li"> <a href="/RichRicasso/produit" >Produit</a></li>
             <img src="../img/user2.png" alt="user" class="user-icon nav-li" >
         </nav>
         <header>
@@ -47,7 +47,7 @@
                     <div class="user-info">
                         <p class="user-name">KeZa Ria</p>
                         <p class="user-email">email@email.com</p>
-                        <p class="user-profil"><a href="profil">Mon profil</a></p>
+                        <p class="user-profil"><a href="/RichRicasso/profil/profil.php">Mon profil</a></p>
                     </div>
                 </div>
             </div>

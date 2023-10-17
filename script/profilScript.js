@@ -7,13 +7,13 @@ userSecurite.style.display = "none"
 
 btnProfil.addEventListener("click",()=>{
     userSecurite.style.display = "none"
-    userProfil.style.display = "block"
+    userProfil.style.display = "flex"
     btnProfil.style.color = "#013B5D"
 }
     
 )
 btnSecurite.addEventListener("click",()=>{
-    userSecurite.style.display = "block"
+    userSecurite.style.display = "flex"
     userProfil.style.display = "none"
     btnSecurite.style.color = "#013B5D"
 }

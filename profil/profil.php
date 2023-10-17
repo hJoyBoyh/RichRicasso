@@ -19,8 +19,8 @@
         -->
         <nav>
             <div class="logo nav-li"><h1>R</h1></div>
-            <li class="nav-li"> <a href="/">Accueil</a></li>
-            <li class="nav-li"> <a href="/produit" >Produit</a></li>
+            <li class="nav-li"> <a href="/RichRicasso">Accueil</a></li>
+            <li class="nav-li"> <a href="/RichRicasso/produit" >Produit</a></li>
             <img src="../img/user2.png" alt="user" class="user-icon nav-li" >
         </nav>
         <header>
@@ -37,7 +37,7 @@
                     <div class="user-info">
                         <p class="user-name">KeZa Ria</p>
                         <p class="user-email">email@email.com</p>
-                        <p class="user-profil"><a href="profil">Mon profil</a></p>
+                        <p class="user-profil"><a href="/RichRicasso/profil/profil.php">Mon profil</a></p>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                 </div>
                 <div id="user-display">
                     <div id="user-profil-info">
-                        <span>fullname:</span>
+                        <span>Nom Complet</span>
                         <h3 id="fullName">Kenny</h3>
                         <hr>
                         <span>Courriel:</span>
@@ -70,9 +70,11 @@
                     <div id="user-securite-info">
                         <h2>Pour update assurez vous de vous trouver au même endroit que vous vous êtes inscrit</h2>
                         <form action="">
-                            <input type="text" placeholder="Kenny">
+                            <label for="updFullName">Nom Complet</label>
+                            <input type="text" placeholder="Kenny" id="updFullName" name="updFullName">
                             <hr>
-                            <input type="email" placeholder="rigrig@gmail.com">
+                            <label for="updEmail">Courriel</label>
+                            <input type="email" placeholder="rigrig@gmail.com" id="udpEmail" name ="updEmail">
                             <hr>
                             <input type="submit" value="Update">
                         </form>
@@ -93,5 +95,6 @@
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="../script/profilScript.js"></script>
+<script src="../main.js"></script>
 
 </html>
