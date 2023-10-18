@@ -10,3 +10,10 @@ try {
 } catch (PDOException $e) {
  echo 'Échec de la connexion : ' . $e->getMessage();
 }
+/*
+$sql = "SELECT * FROM user";
+$result = $pdo->query($sql);
+while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
+ echo $row['nom'] . ' - ' . $row['courriel'] . '<br>';
+}
+*/

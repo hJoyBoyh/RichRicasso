@@ -75,11 +75,18 @@ $userImg = "img/user2.png"
             <div class="hero-section">
                 
                 <div class="hero-info">
-                    <div class="carousel-container">
-                        <img src="./img/cravate1.png" alt="">
-                    </div>
+                <div class="caroussel-content">
+    <div class="gallery">
+        <img src="./img/cravate1.png" alt="many clothes and pictures">
+        <img src="./img/shirt1.png" alt="someone preparing artisanal coffee">
+        <img src="./img/cravate4.png" alt="some tee">
+        <img src="./img/shirt3.png" alt="an empty table in a restaurant">
+        <img src="./img/cravate2.png" alt="a laptop with a notebook">
+        <img src="./img/shirt4.png" alt="a laptop and many books around it">
+      </div>
+    </div>
                     <div class="info">
-                        <h1 class="info-h1">Rich Racasso Collections</h1>
+                        <h1 class="info-h1">Rich Ricasso Collections</h1>
                         <h2 class="info-h2">Au sommet du luxe</h2>
                         <div class="btn-voir-plus">
                             <div>

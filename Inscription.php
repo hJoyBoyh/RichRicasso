@@ -56,26 +56,31 @@
 <body>
     <div class="registration-container">
         <h2>Registration</h2>
-        <form action="register.php" method="POST">
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">Register</button>
+        <form action="Inscription.php" method="POST">
+            <input type="text" name="name" placeholder="Name" id="name" required>
+            <input type="email" name="email" placeholder="Email" id="email"required>
+            <input type="password" name="password" placeholder="Password" id="password" required>
+            <input type="submit" value ="Register">
         </form>
     </div>
 </body>
 </html>
 
+
 <?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST"){
+
+require("./db/dbConnection.php");
 
 $name = $_POST['name'];
 $email = $_POST['email'];
 $mdp = $_POST['password'];
 
-$dsn = 'mysql:host=localhost:3306;dbname=RicassoDb;charset=utf8';
-try {
- $pdo = new PDO($dsn, $email, $mdp);
- $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
- echo 'Échec de la connexion : ' . $e->getMessage();
+$sql = "INSERT INTO user (nom,courriel,mdp,permission) VALUES ('$name','$email','$mdp', '1')";
+$pdo->exec($sql);
+
+header("location: ./index.php");
+exit();
 }
+?>

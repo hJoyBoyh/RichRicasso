@@ -39,7 +39,7 @@ let first = document.querySelector(".first")
 let firstH1 = document.querySelector(".h1-first")
 let scrollLine = document.querySelector(".scroll-line")
 
-let carousel = document.querySelector(".carousel-container")
+let carousel = document.querySelector(".caroussel-content")
 let info = document.querySelector(".info")
 let navli = document.querySelectorAll(".nav-li")
 
