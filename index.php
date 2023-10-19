@@ -185,9 +185,10 @@ $userImg = "img/user2.png"
                         <h2>Restez a l affut des toutes nouvelles sorties!!</h2>
                     </div>
                     <div>
-                        <form action="">
+                        <form action="Infolettre.php" method="post">
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email_infolettre" id="email_infolettre">
+                            <input type="submit" value ="Souscrire">
                         </form>
                     </div>
                     
